@@ -7,16 +7,10 @@
     <title>Document</title>
   </head>
   <body>
-    <form>
-      <textarea rows="10" cols="20">
-Esta área fue definida con renglones y columnas. rows="10" y cols="20"
-    </textarea
-      >
-      <textarea style="width: 200px; height: 100px">
-Esta área fue definida accediendo al estilo del elemento: su ancho y altura. style="width: 200px; height: 100px"
-    </textarea
-      >
-    </form>
+    <h1>El elemento select</h1>
+
+    <h2>Diferentes atributos y elementos utilizados con select</h2>
+    <h3>Formulario con atributo selected</h3>
     <form>
       <label for="web">Elige una opción:</label>
       <select id="web" name="web">
@@ -26,13 +20,76 @@ Esta área fue definida accediendo al estilo del elemento: su ancho y altura. st
         <option value="js">Js</option>
       </select>
     </form>
+    <hr />
+    <h3>Formulario con atributo multiple</h3>
     <form>
-      <button
-        type="button"
-        onclick="alert('Ubits dice: Esta es una alerta nativa de navegador. ¿Qué te parece?')"
-      >
-        Da clic!
-      </button>
+      <label for="web">Elige varias opciones:</label>
+      <select id="web" name="web" multiple>
+        <option value="md">Markdown</option>
+        <option value="html" selected>HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Js</option>
+      </select>
+    </form>
+    <hr />
+    <h3>Formulario con atributo size</h3>
+    <form>
+      <label for="web">Elige una opción:</label>
+      <select id="web" name="web" size="3">
+        <option value="md">Markdown</option>
+        <option value="html" selected>HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Js</option>
+      </select>
+    </form>
+    <hr />
+    <h3>Formulario con elemento optgrpup</h3>
+    <form>
+      <label for="web">Elige una opción:</label>
+      <select id="web" name="web">
+        <optgroup label="Lenguajes de marcado">
+          <option value="md">Markdown</option>
+          <option value="html" selected>HTML</option>
+        </optgroup>
+        <optgroup label="Estilo">
+          <option value="css">CSS</option>
+          <option value="boot" selected>Bootstrap</option>
+        </optgroup>
+        <optgroup label="Lenguajes de programación">
+          <option value="js">Js</option>
+          <option value="php">PHP</option>
+        </optgroup>
+      </select>
+    </form>
+    <hr />
+
+    <h2>Actividad</h2>
+    <p>
+      Realiza un formulario utilizando select, optgroup y option. <br />
+      Tu formulario deberá utilizar mínimo tres diferentes atributos de select,
+      más de 2 grupos dentro de las opciones, y más de una opción en cada uno de
+      estos grupos. <br />
+      El tema recomendado será “Compras” o “Supermercado”.
+    </p>
+    <form>
+      <label for="compras">Elige los productos que deseas comprar</label><br />
+      <select id="compras" name="compras" multiple size="5">
+        <optgroup label="Verduras">
+          <option value="zanahoria">Zanahoria</option>
+          <option value="brocoli" selected>Brócoli</option>
+          <option value="rabano">Rábano</option>
+        </optgroup>
+        <optgroup label="Frutas">
+          <option value="manzana">Manzana</option>
+          <option value="plátano" selected>Plátano</option>
+          <option value="pera">Pera</option>
+        </optgroup>
+        <optgroup label="Lácteos">
+          <option value="queso">Queso</option>
+          <option value="leche" selected>Leche</option>
+          <option value="yogurt">Yogurt</option>
+        </optgroup>
+      </select>
     </form>
   </body>
 </html>
