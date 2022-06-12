@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <textarea rows="10" cols="20">
+Esta área fue definida con renglones y columnas. rows="10" y cols="20"
+    </textarea
+      >
+      <textarea style="width: 200px; height: 100px">
+Esta área fue definida accediendo al estilo del elemento: su ancho y altura. style="width: 200px; height: 100px"
+    </textarea
+      >
+    </form>
+    <form>
+      <label for="web">Elige una opción:</label>
+      <select id="web" name="web">
+        <option value="md">Markdown</option>
+        <option value="html" selected>HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">Js</option>
+      </select>
+    </form>
+    <form>
+      <button
+        type="button"
+        onclick="alert('Ubits dice: Esta es una alerta nativa de navegador. ¿Qué te parece?')"
+      >
+        Da clic!
+      </button>
+    </form>
+  </body>
+</html>
