@@ -6,19 +6,19 @@ Aprendiendo formularios de HTML con Ubits!
 
 Form e inputs
 
->
+> Actividad:
 
 ## Microbit Dos
 
 Más controles y elementos de un formulario
 
->
+> Actividad:
 
 ## Microbit Tres
 
 Atributos del formualrio y sus elementos
 
->
+> Actividad:
 
 ## Caso
 
