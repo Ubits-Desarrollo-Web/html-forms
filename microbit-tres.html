@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microbit Tres</title>
+  </head>
+  <body>
+    <form
+      action="https://ubits-desarrollo-web.github.io/html-forms/"
+      autocomplete="on"
+      name="cuenta"
+      target="_blank"
+    >
+      <ul type="none">
+        <li>
+          <label for="usuario">Usuario</label>
+          <input
+            type="text"
+            name="cuenta"
+            id="usuario"
+            placeholder="usuario"
+            required
+          />
+        </li>
+        <li>
+          <label for="correo">Correo</label>
+          <input
+            type="email"
+            name="cuenta"
+            id="correo"
+            placeholder="correo@mail.com"
+            required
+          />
+        </li>
+        <li>
+          <label for="contraseña">Contraseña</label>
+          <input type="password" name="cuenta" id="contraseña" required />
+        </li>
+        <li>
+          <input type="checkbox" name="cuenta" id="regalo" disabled />
+          <label for="regalo">¿Querrías un kit de regalo gratis?</label>
+        </li>
+      </ul>
+      <button type="submit">Crear cuenta</button>
+      <button type="reset">Limpiar formulario</button>
+    </form>
+  </body>
+</html>
